@@ -1,9 +1,11 @@
 ﻿using practicproblem.ClassandObject;
+using practicproblem.Constructor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace practicproblem
 {
@@ -31,6 +33,23 @@ namespace practicproblem
 
             var name2 = s1.GetStudentName();
             Console.WriteLine(name2);
+
+
+
+
+            // an object is created, 
+            // constructor is called
+            multiplication mul = new multiplication();
+           
+             Console.WriteLine(mul.a);
+            Console.WriteLine(mul.b);
+            
+            
+
+
+
+
+            Console.WriteLine("The result of multiplication is: " + (mul.a * mul.b));
         }
     }
 }

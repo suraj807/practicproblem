@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="ClassandObject\car.cs" />
     <Compile Include="ClassandObject\student.cs" />
+    <Compile Include="Constructor\defaultconstructor.cs" />
+    <Compile Include="Constructor\multiplication.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

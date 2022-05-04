@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace practicproblem.Constructor
 {
-    internal class multiplication
+    public class multiplication
     {
+        int a;
+        int b;
+
+        public multiplication()
+        {
+            a = 10;
+       //     Console.WriteLine(a);
+            b = 5;
+       //     Console.WriteLine(b);
+
+
+        }
+       
     }
 }
